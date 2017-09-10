@@ -31,9 +31,9 @@ class Song
 #    end
 #  end
 
-  def artists
-    @@artists.uniq!
-  end
+#  def artists
+#    @@artists.uniq!
+#  end
 
   #def artist_count
   #  artist_hash = {}
