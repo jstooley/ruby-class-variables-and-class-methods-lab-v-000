@@ -8,8 +8,10 @@ class Song
     @@genres << genre
   end
   def count
-    @@count.uniq!
+    @@count
   end
-  def genre
+  def genres
+    @@genree.uniq!
   end
+
 end
