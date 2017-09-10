@@ -43,6 +43,6 @@ class Song
   #    else
   #      artist_hash[artist] = 1
   #  end
-  end
+  #end
 
 end
