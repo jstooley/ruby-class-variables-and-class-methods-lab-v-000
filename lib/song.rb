@@ -20,4 +20,6 @@ class Song
   def artists
     @@artists.uniq!
   end
+  def artist_count
+  end
 end
