@@ -24,7 +24,7 @@ class Song
   def genre_count
     genre_hash ={}
     @@genres.each do |genre|
-      if genre_hash.has_key?(genre) do |x|
+      if genre_hash.has_key?(genre)
         genre_hash[genre] += 1
       else
         genre_hash[genre] = 1
@@ -39,7 +39,7 @@ class Song
   def artist_count
     artist_hash = {}
     @@artists.each do |artist|
-      if artist_hash.has_key?(artist) do |x|
+      if artist_hash.has_key?(artist)
         artist_hash[artist] += 1
       else
         artist_hash[artist] = 1
