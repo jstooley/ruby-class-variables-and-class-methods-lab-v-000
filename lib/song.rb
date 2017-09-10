@@ -13,5 +13,6 @@ class Song
   def genres
     @@genree.uniq!
   end
-
+  def artists
+  end
 end
